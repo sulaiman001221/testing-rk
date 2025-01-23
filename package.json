@@ -1,0 +1,20 @@
+{
+  "name": "rose-kgatle-952-contentitem-javascript",
+  "version": "1.0.0",
+  "description": "Email random inspirational quote - part 1 (952)\r For raw project instructions see: http://syllabus.africacode.net/projects/email-inspirational-quote/part-1/",
+  "main": "src/send_inspiration.js",
+  "scripts": {
+    "test": "jasmine",
+    "send_inspiration": "node src/send_inspiration.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^5.5.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "nodemailer": "^6.9.16"
+  }
+}
